@@ -6,7 +6,7 @@
 #?/environment    MODULE_DEBUG if set, debug information will be printed to the console
 #?/environment    MODULE_ARGS contains the arguments passed to the module
 
-set -euo pipefail
+set -eo pipefail
 
 #@/main
  # Initializes the module system
